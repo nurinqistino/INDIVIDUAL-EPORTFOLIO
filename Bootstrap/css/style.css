@@ -1,0 +1,67 @@
+.title {
+  font-family: "Roboto", serif; /* Ensure Roboto font is available */
+  font-weight: 1000px;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: transparent; /* Makes text transparent to display gradient */
+  background: linear-gradient(135deg, #1e5799, #3eeece, #daa5f4); /* Gradient colors */
+  background-size: 500px 100%; /* Size of the gradient */
+  -webkit-background-clip: text; /* Ensures gradient clips to text on WebKit browsers */
+  background-clip: text; /* Clips the gradient to the text */
+  display: inline-block; /* Required to ensure the background-clip effect works */
+}
+
+.card-img-top {
+  object-fit: cover; /* Ensures the image covers the specified dimensions */
+  width: 100%;       /* Makes the image take up the full width of its container */
+  height: 200px;     /* Sets a fixed height for all images */
+}
+
+
+.welcome-container {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        color: white; 
+    }
+
+    .welcome-container .background-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: 1;
+    }
+
+    .welcome-container .container {
+        position: relative;
+        z-index: 2; 
+    }
+
+
+
+
+
+.title {
+    font-family: "Monomaniac One", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: transparent;
+    background: linear-gradient(
+      135deg, #1e5799, #2ce0bf, #7ddd2c
+
+    );
+    background-size: 500px 100%;
+    background-clip: text;
+  }
+  
+
+  .green{
+    background-color: rgb(123, 196, 63);
+  }
+
+  
+  
